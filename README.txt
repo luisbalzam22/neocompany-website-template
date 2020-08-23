@@ -1,0 +1,6 @@
+This project, which I call "Neo Company" is elegant, minimalist and not overwhelmingly colorful, perfect for those companies that want to display maximum profesionalism on their website. For this template I decided to implement the most popular HTML and CSS framework: Bootstrap 4, which let me develop this template quite faster and easier (I'd say 95% of the template styles are Bootstrap 4, and only a 5% are custom styles), also, I inlcuded the youtube iframe API, which lets us load youtube videos faster and be able to control such videos programatically without many restrictions (unlike using the old-timey, simple iframe embed), for this project, I used it to automatically play a video with full audio once a Bootstrap 4 modal got activated, and stop it once you closed the modal.
+
+Side note: At the begining I didn't know how to include the youtube iframe video API, so I had to document myself a lot about it. Since I feel I learned enough, I decided to create a small repository with some files to make it easier for anyone to quickly set it up in their projects (inluding myself, in case I end up forgetting how to use it).
+
+The repository is hosted in gitHub, so you're welcome to fork it if you need it!
+(GITHUB LINK)

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact John Doe Inc. | John Doe Inc.</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Jquery CDN-->
+    <script defer="defer" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--FontAwesome, PopperJs and BootstrapJs CDN-->
+    <script defer="defer" src="https://kit.fontawesome.com/88248afd94.js" crossorigin="anonymous"></script>
+    <script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script defer="defer" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="bg-dark text-light">
+        <nav class="navbar navbar-expand-md container navbar-dark">
+            <a href="./index.html" class="navbar-brand">John Doe Inc.</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link active">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="page-header">
+            <div class="container py-5 text-center text-white">
+                <h1>Contact Us</h1>
+            </div>
+        </section>
+        <section id="contact" class="container pt-5">
+            <div class="row">
+                <div class="col-md-4 mb-5 d-flex">
+                    <div class="border p-3">
+                        <h3>Get in touch</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deserunt deleniti totam?</p>
+                        <h3>Address</h3>
+                        <p>St. John St.</p>
+                        <h3>Email</h3>
+                        <p><a href="mailto:john@doe.com">john@doe.com</a></p>
+                        <h3>Phone</h3>
+                        <p><a href="tel:555-555-5555">(555) 555-5555</a></p>
+                    </div>
+                </div>
+                <div class="col-md-8 d-flex mb-5">
+                    <div class="border p-5 text-center">
+                        <p class="h3 mb-4"><strong>Please fill out this form to contact us</strong></p>
+                        <form name="newsfeed" method="POST" data-netlify="true">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" name="name" placeholder="Name" class="form-control">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" name="lastname" placeholder="Last Name" class="form-control">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="email" name="email" placeholder="Email" class="form-control">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="tel" name="phone" placeholder="Phone" class="form-control">
+                                </div>
+                            </div>
+                            <textarea name="message" id="message" class="form-control mb-3" rows="7"></textarea>
+                            <button type="submit" class="btn btn-block btn-outline-success font-weight-bold">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="staff" class="bg-dark">
+            <div class="container pt-4 text-white text-center">
+                <h2 class="mb-4">Our Staff</h2>
+                <ul class="list-unstyled row">
+                    <li class="col-md-3 mb-5">
+                        <img src="./img/person1.jpg" alt="" class="img-fluid rounded-circle">
+                        <span class="d-block py-1">Jane Doe</span>
+                        <p class="mb-0"><small>Marketing Manager</small></p>
+                    </li>
+                    <li class="col-md-3 mb-5">
+                        <img src="./img/person2.jpg" alt="" class="img-fluid rounded-circle">
+                        <span class="d-block py-1">Sarah Doe</span>
+                        <p class="mb-0"><small>Business Manager</small></p>
+                    </li>
+                    <li class="col-md-3 mb-5">
+                        <img src="./img/person3.jpg" alt="" class="img-fluid rounded-circle">
+                        <span class="d-block py-1">John Doe</span>
+                        <p class="mb-0"><small>CEO</small></p>
+                    </li>
+                    <li class="col-md-3 mb-5">
+                        <img src="./img/person4.jpg" alt="" class="img-fluid rounded-circle">
+                        <span class="d-block py-1">Steve Doe</span>
+                        <p class="mb-0"><small>Media Manager</small></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-light">
+        <div class="container text-center font-weight-bold py-3">
+            Copytight &copy; John Doe Inc. 2020
+        </div>
+    </footer>
+</body>
+</html>

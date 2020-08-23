@@ -1,0 +1,46 @@
+#showcase .carousel-item {
+  min-height: auto;
+  height: 60vh !important;
+  max-height: 380px;
+  background-size: cover; }
+#showcase .carousel-item:nth-child(1) {
+  background-image: url("../img/image1.jpg"); }
+#showcase .carousel-item:nth-child(2) {
+  background-image: url("../img/image2.jpg"); }
+
+@media only screen and (max-width: 575px) {
+  #showcase .carousel-item {
+    min-height: 90vh !important; } }
+#are-you-ready {
+  background-image: url("../img/lights.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+#what-we-do-home {
+  background-image: url("../img/media.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #00000036;
+  background-position: bottom;
+  background-blend-mode: color; }
+  #what-we-do-home .modal-body iframe {
+    width: 100%; }
+
+#page-header {
+  background-image: url("../img/image1.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+@media only screen and (min-width: 768px) {
+  #what-we-do img {
+    transform: translateY(-10%); } }
+#faq [id^=faq-accordion] .card {
+  background-color: unset; }
+#faq [id^=faq-accordion] [aria-expanded=true] {
+  border: 1px solid #fff; }
+#faq [id^=faq-accordion] .card-link {
+  color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

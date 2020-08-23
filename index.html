@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | John Doe Inc.</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Jquery CDN-->
+    <script defer="defer" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--FontAwesome, PopperJs and BootstrapJs CDN-->
+    <script defer="defer" src="https://kit.fontawesome.com/88248afd94.js" crossorigin="anonymous"></script>
+    <script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script defer="defer" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--Main js File-->
+    <script defer="defer" src="./js/main.js"></script>
+</head>
+<body>
+    <header class="bg-dark text-light">
+        <nav class="navbar navbar-expand-md container navbar-dark">
+            <a href="./index.html" class="navbar-brand">John Doe Inc.</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about.html" class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="showcase">
+            <div id="home-carousel" class="showcase-carousel carousel slide" data-ride="carousel">
+                <!-- CAROUSEL INDICATORS GO HERE-->
+                <ol class="carousel-indicators">
+                  <li class="active" data-target="#home-carousel" data-slide-to="0"></li>
+                  <li  data-target="#home-carousel" data-slide-to="1"></li>
+                </ol>
+                <!-- CAROUSEL INNER GOES HERE-->
+                <div class="carousel-inner text-white">
+                  <div class="carousel-item py-5 active">
+                    <div class="container d-flex flex-column align-items-center justify-content-center text-center">
+                        <h1 class="display-4">John Doe Inc.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, rem reiciendis. In expedita natus maiores veritatis et optio reiciendis aliquid incidunt repudiandae! Recusandae ea sed optio voluptatem architecto corporis rerum.</p>
+                        <a href="./about.html" class="btn btn-outline-primary btn-lg">Learn More</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item py-5">
+                    <div class="container d-flex flex-column align-items-center justify-content-center text-center">
+                        <h2 class="display-4">Services we provide</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="./services.html" class="btn btn-outline-success btn-lg">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- CAROUSEL CONTROLS GO HERE -->
+                <a href="#home-carousel" class="carousel-control-prev" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#home-carousel" class="carousel-control-next" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </section>
+        <section id="process-steps" class="container py-5">
+            <h2 class="sr-only">Our step by step process:</h2>
+            <ul class="row list-unstyled">
+                <li class="col-md text-center">
+                    <i class="d-block fas fa-cog fa-3x mb-2"></i>
+                    <span class="h3 d-block mb-2">Turning Gears</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam delectus esse totam voluptatibus sunt ab dignissimos officiis dolorem eaque soluta?</p>
+                </li>
+                <li class="col-md text-center">
+                    <i class="d-block fas fa-cloud fa-3x mb-2"></i>
+                    <span class="h3 d-block mb-2">Sending Data</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam delectus esse totam voluptatibus sunt ab dignissimos officiis dolorem eaque soluta?</p>
+                </li>
+                <li class="col-md text-center">
+                    <i class="d-block fas fa-cart-plus fa-3x mb-2"></i>
+                    <span class="h3 d-block mb-2">Making Money</span>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam delectus esse totam voluptatibus sunt ab dignissimos officiis dolorem eaque soluta?</p>
+                </li>
+            </ul>
+        </section>
+        <section id="are-you-ready" class="py-5 text-center text-white">
+            <div class="container">
+                <h2 class="text-capitalize">Are you ready to get started?</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos repellat reiciendis, eius deleniti non minus.</p>
+            </div>
+        </section>
+        <section id="home-info" class="container py-3">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Lorem Info</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, eveniet.</p>
+                    <a href="about.html" class="btn btn-outline-danger">Learn more</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/laptop.png" alt="Laptop" class="img-fluid">
+                </div>
+            </div>
+        </section>
+        <section id="what-we-do-home">
+            <div class="container text-center d-flex flex-column-reverse py-5">
+                <h2 class="text-capitalize">See what we do</h2>
+                <a class="align-self-center" href="#what-we-do-modal" data-toggle="modal" data-target="#what-we-do-modal">
+                    <i class="fas fa-play fa-3x"></i>
+                </a>
+                <div class="modal fade" id="what-we-do-modal">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <!-- Modal header -->
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <div id="youtube-api-player"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section id="photo-gallery" class="container text-center py-3">
+            <h2>Photo Gallery</h2>
+            <p>Check out our photos</p>
+            <div class="row" id="photo-gallery-holder">
+                <div class="col-md-4 mb-4">
+                    <a href="" data-toggle="modal" data-target="#photo-gallery-modal">
+                        <img src="https://source.unsplash.com/random/500x500" alt="" class="img-fluid" />
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="" data-toggle="modal" data-target="#photo-gallery-modal">
+                        <img src="https://source.unsplash.com/random/501x500" alt="" class="img-fluid" />
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="" data-toggle="modal" data-target="#photo-gallery-modal">
+                        <img src="https://source.unsplash.com/random/502x500" alt="" class="img-fluid" />
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="" data-toggle="modal" data-target="#photo-gallery-modal">
+                        <img src="https://source.unsplash.com/random/503x500" alt="" class="img-fluid" />
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="" data-toggle="modal" data-target="#photo-gallery-modal">
+                        <img src="https://source.unsplash.com/random/504x500" alt="" class="img-fluid" />
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="" data-toggle="modal" data-target="#photo-gallery-modal">
+                        <img src="https://source.unsplash.com/random/505x500" alt="" class="img-fluid" />
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="" data-toggle="modal" data-target="#photo-gallery-modal">
+                        <img src="https://source.unsplash.com/random/500x501" alt="" class="img-fluid" />
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="" data-toggle="modal" data-target="#photo-gallery-modal">
+                        <img src="https://source.unsplash.com/random/500x502" alt="" class="img-fluid" />
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="" data-toggle="modal" data-target="#photo-gallery-modal">
+                        <img src="https://source.unsplash.com/random/500x503" alt="" class="img-fluid" />
+                    </a>
+                </div>
+            
+            </div>
+            <div class="modal fade" id="photo-gallery-modal">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <!-- Modal header -->
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="newsletter" class="bg-dark">
+            <div class="container text-center text-white py-5">
+                <h2>Sign up for our newsletter</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi fugit nemo accusamus quam.</p>
+                <form name="newsfeed" method="POST" data-netlify="true" class="form-inline justify-content-center">
+                    <input name="name" type="text" class="form-control mb-2 mx-1" placeholder="Enter Your Name" />
+                    <input name="email" type="email" class="form-control mb-2 mx-1" placeholder="Ener Your Email" />
+                    <button type="submit" class="btn btn-outline-success mb-2 mx-1">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-light">
+        <div class="container text-center font-weight-bold py-3">
+            Copytight &copy; John Doe Inc. 2020
+        </div>
+    </footer>
+</body>
+</html>
